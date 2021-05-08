@@ -8,15 +8,13 @@ import { Top, News, About, Store, Guitar } from './Component'
 const Main = (props) => {
   console.log(props)
   return (
-    <BrowserRouter>
-      <Switch>
-        <Route path="/" children={<Top />} />
-        <Route path="/news" children={<News />} />
-        <Route path="/about" children={<About />} />
-        <Route path="/store" children={<Store />} />
-        <Route path="/guitar" children={<Guitar />} />
-      </Switch>
-    </BrowserRouter>
+    <Switch>
+      <Route path="/" exact children={<Top />} />
+      <Route path="/news" children={<News />} />
+      <Route path="/about" children={<About />} />
+      <Route path="/store" children={<Store />} />
+      <Route path="/guitar" children={<Guitar />} />
+    </Switch>
   );
 };
 
