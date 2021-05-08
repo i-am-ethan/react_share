@@ -1,0 +1,53 @@
+header {
+  background-color: #e4afaf;
+}
+
+header .header__inner .header__inner__sns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+header .header__inner .header__inner__sns img {
+  margin: 8px;
+  outline: none;
+}
+
+header .header__inner .header__inner__sns img:hover {
+  background-color: pink;
+}
+
+header .header__inner .header__inner__logo {
+  text-align: center;
+}
+
+header .header__inner .header__inner__logo a {
+  text-decoration: none;
+}
+
+header .header__inner .header__inner__logo a h1 {
+  color: gray;
+}
+
+header .header__inner .header__inner__nav nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+header .header__inner .header__inner__nav nav ul li {
+  list-style: none;
+  margin: 10px;
+}
+
+header .header__inner .header__inner__nav nav ul li a {
+  text-decoration: none;
+  color: gray;
+}
+/*# sourceMappingURL=App.css.map */

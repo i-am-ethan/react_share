@@ -1,0 +1,42 @@
+header {
+  background-color: rgb(228, 175, 175);
+  .header__inner {
+    .header__inner__sns {
+      display: flex;
+      justify-content: flex-end;
+      img {
+        margin: 8px;
+        outline: none;
+      }
+      img:hover {
+        background-color: pink;
+      }
+    }
+    .header__inner__logo {
+      text-align: center;
+      a {
+        text-decoration: none;
+        h1 {
+          color: gray;
+        }
+      }
+    }
+    .header__inner__nav {
+      nav {
+        ul {
+          display: flex;
+          justify-content: center;
+
+          li {
+            list-style: none;
+            margin: 10px;
+            a {
+              text-decoration: none;
+              color: gray;
+            }
+          }
+        }
+      }
+    }
+  }
+}
